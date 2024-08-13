@@ -1,4 +1,4 @@
-package me.brennorodrigues.gestao_vagas.modules;
+package me.brennorodrigues.gestao_vagas.modules.candidate.entities;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -19,11 +19,7 @@ import lombok.Data;
 @Data
 @Entity(name = "cadidate")
 public class CandidateEntity {
-
-    /**
-     * Aqui ela só definiu uma espécie de middlware que vai funcionar como validação para os nossos campos
-     *  dizendo do formato obrgatório de cada um e também o tipo esperado 
-     */
+ 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
