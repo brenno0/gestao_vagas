@@ -1,6 +1,6 @@
 # Gestão de Vagas
 
-#### Este projeto foi desenvolvido com o objetivo de criar um sistema de gestão de vagas utilizando Java e Spring Boot. O programa está em fase inicial e possuirá ainda as funções de candidatura em uma vaga, aprovação e reprovação
+#### Este projeto foi desenvolvido com o objetivo de criar um sistema de gestão de vagas utilizando Java e Spring Boot. O programa está em fase inicial e possuirá ainda as funções de candidatura em uma vaga, aprovação e reprovação, edição de vagas e notificações em tempo real.
 
 
 ***Versão do projeto***: 1.0.0 | 
