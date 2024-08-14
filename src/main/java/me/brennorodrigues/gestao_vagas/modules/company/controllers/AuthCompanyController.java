@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import me.brennorodrigues.gestao_vagas.modules.company.dto.AuthCompanyDTO;
 import me.brennorodrigues.gestao_vagas.modules.company.useCases.AuthCompanyUseCase;
 
-@RequestMapping("/auth")
+@RequestMapping("/company/auth")
 @RestController
 public class AuthCompanyController {
 
@@ -21,7 +21,7 @@ public class AuthCompanyController {
     @Autowired
     private AuthCompanyUseCase authCompanyUseCase;
     
-    @PostMapping("/company")
+    @PostMapping("")
     public ResponseEntity<Object> companyAuthentication(@RequestBody AuthCompanyDTO authCompanyDto) throws AuthenticationException {
         try {
             var result = this.authCompanyUseCase.execute(authCompanyDto);

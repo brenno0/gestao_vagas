@@ -31,7 +31,6 @@ public class ExceptionHandlerController {
            ErrorMessageDTO error = new ErrorMessageDTO(message, err.getField());
             dto.add(error);
         });
-        //Retorna o nosso Objeto DTO junto com o status para a nossa entity
         return new ResponseEntity<>(dto, HttpStatus.BAD_REQUEST);
     }
     
